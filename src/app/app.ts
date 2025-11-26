@@ -1,12 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { Navbar } from './navbar/navbar';
-import { RecipeCard } from './recipe-card/recipe-card';
-import { ShoppingTodoList } from './shopping-todo-list/shopping-todo-list';
-import { RecipeContent } from './recipe-content/recipe-content';
+import { Login } from './login/login';
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, RecipeCard, ShoppingTodoList, RecipeContent],
+  imports: [Login],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
